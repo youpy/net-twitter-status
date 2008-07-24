@@ -1,0 +1,32 @@
+= net-twitter-status
+
+== Description
+library for get Twitter's current status information 
+
+== Installation
+
+=== Archive Installation
+
+	rake install
+
+=== Gem Installation
+
+	gem install net-twitter-status
+
+== Features/Problems
+
+== Synopsis
+
+	 >> status = Net::Twitter::Status.new
+	 >> features = status.features
+	 >> features['IM'].status
+	 => :offline
+	 >> features['IM'].message
+	 => "Offline. Working on additional capacity."
+
+== Copyright
+
+Author::    youpy <youpy@>
+Copyright:: Copyright (c) 2008 youpy
+License:: MIT
+ 
