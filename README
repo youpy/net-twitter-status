@@ -1,7 +1,7 @@
 = net-twitter-status
 
 == Description
-library for get Twitter's current status information 
+library to get Twitter's current status information 
 
 == Installation
 
